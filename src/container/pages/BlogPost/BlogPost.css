@@ -1,0 +1,125 @@
+/* reset sederhana */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* post content */
+
+.blogPost-Content {
+  display: flex;
+  margin: 50px auto;
+  width: 40rem;
+  padding: 2rem;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.img-content img {
+  border-radius: 20px;
+}
+
+.blog-content {
+  text-align: center;
+  padding: 2rem;
+}
+
+.button-delete {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  border: none;
+  color: red;
+  font-weight: bold;
+  transition: 0.5s all;
+  border: 1px solid #ff3535;
+}
+
+.button-delete:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.button-update {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  border: none;
+  color: #48ff57;
+  font-weight: bold;
+  transition: 0.5s all;
+  border: 1px solid #48ff57;
+}
+
+.button-update:hover {
+  background-color: #48ff57;
+  color: white;
+  cursor: pointer;
+}
+
+/* akhir post content */
+
+/* form post  */
+.form-content {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 40rem;
+  height: 35rem;
+  margin: 50px auto;
+  padding: 3rem;
+  border: 2px solid #4b4b4b;
+  border-radius: 20px;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.form-content label {
+  padding-bottom: 1rem;
+}
+
+.form-content input {
+  height: 1.5rem;
+  padding: 0.5rem;
+  border: 1px solid #4b4b4b;
+  border-radius: 0.5rem;
+}
+
+.body-title {
+  padding-top: 2.5rem;
+}
+
+.form-content textarea {
+  padding: 0.5rem;
+  border: 1px solid #4b4b4b;
+  border-radius: 0.5rem;
+}
+
+.form-content button {
+  position: absolute;
+  bottom: 0.2rem;
+  right: 3rem;
+  width: 10rem;
+  height: 2.5rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #38e4e4;
+  background-color: #ffffff;
+  border: 2px solid #38e4e4;
+  border-radius: 0.5rem;
+  transition: all 0.5s;
+}
+
+.form-content button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #38e4e4;
+}
+
+/* akhir form post content */ ;
